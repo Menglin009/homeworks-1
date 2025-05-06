@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #022341;
+  color: #fff;
+  padding: 10px 0;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+header .navbar .navbar-nav {
+  list-style-type: none;
+  display: flex;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+  padding: 10px 24px;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid #d9dbde00;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+  border-bottom-color: #fff;
+}
+header .navbar .group-btn .btn {
+  text-decoration: none;
+  padding: 10px 24px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgb(146, 143, 143);
+}
+header .navbar .group-btn .btn-login {
+  color: #fff;
+  transition-duration: 0.5s;
+}
+header .navbar .group-btn .btn-rgister {
+  background-color: #0ea5e9;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+.hero {
+  text-align: center;
+  padding: 100px;
+  background-color: #f9f9f9;
+}
+.hero h1 {
+  margin-bottom: 20px;
+}
+.get-started {
+  background-color: #00bfff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1 {
+    width: 8.333333333333333%;
+  }
+  .col-2 {
+    width: 16.66666666666667%;
+  }
+  .col-3 {
+    width: 24%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333333333333%;
+  }
+  .col-8 {
+    width: 66.66666666666667%;
+  }
+  .col-9 {
+    width: 75% ;
+  }
+  .col-10 {
+    width: 83.33333333333333%;
+  }
+  .col-11 {
+    width: 91.66666666666667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .product {
+    padding: 100px 0;
+  }
